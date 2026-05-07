@@ -19,10 +19,7 @@ class DefaultFirebaseOptions {
               'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-              'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -36,31 +33,44 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR-WEB-API-KEY',
-    appId: 'YOUR-WEB-APP-ID',
-    messagingSenderId: 'YOUR-SENDER-ID',
-    projectId: 'your-project-id',
-    authDomain: 'your-project-id.firebaseapp.com',
-    databaseURL: 'https://your-project-id-default-rtdb.firebaseio.com',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyCIEvJNVaSyQYaVk0T2Ob24kIw9d2HhUKg',
+    appId: '1:397045236080:web:8062eaafa181b547d00fb5',
+    messagingSenderId: '397045236080',
+    projectId: 'flutteranimation-469f4',
+    authDomain: 'flutteranimation-469f4.firebaseapp.com',
+    databaseURL: 'https://flutteranimation-469f4-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'flutteranimation-469f4.firebasestorage.app',
+    measurementId: 'G-XFWZEZSW0X',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR-ANDROID-API-KEY',
-    appId: 'YOUR-ANDROID-APP-ID',
-    messagingSenderId: 'YOUR-SENDER-ID',
-    projectId: 'your-project-id',
-    databaseURL: 'https://your-project-id-default-rtdb.firebaseio.com',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyDAVaZL2nlalDkQxMZAqR9JFz6E7XTFNLA',
+    appId: '1:397045236080:android:41639eed07e6e586d00fb5',
+    messagingSenderId: '397045236080',
+    projectId: 'flutteranimation-469f4',
+    databaseURL: 'https://flutteranimation-469f4-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'flutteranimation-469f4.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR-IOS-API-KEY',
-    appId: 'YOUR-IOS-APP-ID',
-    messagingSenderId: 'YOUR-SENDER-ID',
-    projectId: 'your-project-id',
-    databaseURL: 'https://your-project-id-default-rtdb.firebaseio.com',
-    storageBucket: 'your-project-id.appspot.com',
+    apiKey: 'AIzaSyCvCXOqzDd3zoJ7abn7GPH-duW5hNP4cEk',
+    appId: '1:397045236080:ios:0f520c2237a4869bd00fb5',
+    messagingSenderId: '397045236080',
+    projectId: 'flutteranimation-469f4',
+    databaseURL: 'https://flutteranimation-469f4-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'flutteranimation-469f4.firebasestorage.app',
     iosBundleId: 'com.example.flutteranimation',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCIEvJNVaSyQYaVk0T2Ob24kIw9d2HhUKg',
+    appId: '1:397045236080:web:93eb9894556bf0b3d00fb5',
+    messagingSenderId: '397045236080',
+    projectId: 'flutteranimation-469f4',
+    authDomain: 'flutteranimation-469f4.firebaseapp.com',
+    databaseURL: 'https://flutteranimation-469f4-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'flutteranimation-469f4.firebasestorage.app',
+    measurementId: 'G-YSNXPNKTPN',
+  );
+
 }

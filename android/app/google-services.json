@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "397045236080",
+    "firebase_url": "https://flutteranimation-469f4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flutteranimation-469f4",
+    "storage_bucket": "flutteranimation-469f4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397045236080:android:41639eed07e6e586d00fb5",
+        "android_client_info": {
+          "package_name": "com.example.flutteranimation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAVaZL2nlalDkQxMZAqR9JFz6E7XTFNLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
